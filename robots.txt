@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /alec
+Disallow: /rac
+Disallow: /yalms
