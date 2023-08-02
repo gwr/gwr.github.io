@@ -1,0 +1,469 @@
+<!--
+  use like this:
+  xsltproc -o ~/Temp/wpts-results.html ~/Temp/wpts.xsl ~/Downloads/_smbtest_2021-12-08_17_28_23.trx
+--><html xmlns:t="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+            h2 {color: sienna}
+            .resultsHdrRow { font-face: arial; padding: 5px }
+            .resultsRow { font-face: arial; padding: 5px }
+            </style>
+</head>
+<body>
+<h2>Test Results</h2>
+<h3>Summary</h3>
+<ul>
+<li>Tests found:    110</li>
+<li>Tests executed: 81</li>
+<li>Tests passed:   78</li>
+<li>Tests Failed:   3</li>
+</ul>
+<table border="1" width="80%">
+<tr class="resultsHdrRow">
+<th align="left">Test</th>
+<th align="left">Outcome</th>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AppInstanceId</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AppInstanceVersion_SMB311_GreaterVersion</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AppInstanceVersion_SMB311_LowerAppInstanceVersionHigh</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AppInstanceVersion_SMB311_LowerAppInstanceVersionLow</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AppInstanceVersion_SMB311_SameVersion</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Compound_RelatedRequests</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Compound_UnRelatedRequests</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_CopyOffload</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_CopyOffloadOddLength</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_CreateClose_CreateAndCloseDirectory</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_CreateClose_CreateAndCloseFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DirectoryLeasing_LeaseBreakOnMultiClients</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DirectoryLeasing_ReadWriteHandleCaching</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DuplicateExtentsToFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DurableHandleV1_Reconnect_WithBatchOplock</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DurableHandleV1_Reconnect_WithLeaseV1</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DurableHandleV2_Reconnect_WithBatchOplock</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_DurableHandleV2_Reconnect_WithLeaseV1</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_GlobalEncryptionEnabled</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_PerShareEncryptionEnabled</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_SMB311</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_SMB311_AES_256_CCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_SMB311_AES_256_GCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_SMB311_CCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Encryption_SMB311_GCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_EnumerateSnapShots</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FileLevelTrim</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Leasing_FileLeasingV1</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Leasing_FileLeasingV2</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_MultiCredit_OneRequestWithMultiCredit</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_MultipleChannel_NicRedundantOnBoth</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_Compatible_2002</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_Compatible_Wildcard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB2002</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB21</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB30</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB302</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_CompressionEnabled</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Compression_IsChainedCompressionSupported</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Preauthentication</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Preauthentication_Encryption_AES_256_CCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Preauthentication_Encryption_AES_256_GCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Preauthentication_Encryption_CCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_Preauthentication_Encryption_GCM</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SMB311_RdmaTransformCapabilities_IsSupported</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Negotiate_SigningEnabled</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_NetworkInterfaceInfo_QuerySuccessful</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_OffloadReadWrite</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_OpLockBreak</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_OpLockBreak_Lease</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_PersistentHandle_Reconnect</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_PersistentHandles</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Replay_ReplayCreate</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Replay_WriteWithInvalidChannelSequence</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Resiliency</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_ResilientHandle_LockSequence</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_ResilientHandle_LockSequence_Lease</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_ResilientHandle_Reconnect</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_ResilientHandle_Reconnect_Lease</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_CancelRegisteredChangeNotify</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeAttributes</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeCreation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeDirName</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeEa</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeFileName</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeLastAccess</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeLastWrite</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeSecurity</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeSize</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeStreamName</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeStreamSize</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ChangeStreamWrite</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_MaxTransactSizeCheck_Smb2002</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_MaxTransactSizeCheck_Smb21</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_MaxTransactSizeCheck_Smb30</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_MaxTransactSizeCheck_Smb302</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_MaxTransactSizeCheck_Smb311</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_NoFileListDirectoryInGrantedAccess</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_NonDirectoryFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_ChangeNotify_ServerReceiveSmb2Close</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_LockAndUnLock</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_QueryAndSet_FileInfo</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_QueryDir_Reopen_OnDir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_QueryDir_Reopen_OnFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_Query_FileAllInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_Query_FileNormalizedNameInformation_DataFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_Query_FileNormalizedNameInformation_DirectoryFile</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_Query_Quota_Info</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Basic_QuicTransport_OpenNamedPipe</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_Chained_PatternV1</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_Chained_PatternV1_Encrypted</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZ77</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZ77Huffman</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZ77Huffman_Encrypted</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZ77_Encrypted</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZNT1</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_LZNT1_Encrypted</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_Unchained</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMB2Compression_Unchained_LargeFile</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SMBDialect</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SessionMgmt_NewSession</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SessionMgmt_Reauthentication</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SessionMgmt_ReconnectSessionSetup</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SetGetIntegrityInfo</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_SetZeroData</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_Signing</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_TreeMgmt_SMB311_Disconnect_NoSignedNoEncryptedTreeConnect</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_TreeMgmt_TreeConnectAndDisconnect</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_ValidateNegotiateInfo</td>
+<td>Passed</td>
+</tr>
+</table>
+</body>
+</html>

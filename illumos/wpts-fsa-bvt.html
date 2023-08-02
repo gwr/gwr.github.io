@@ -1,0 +1,597 @@
+<!--
+  use like this:
+  xsltproc -o ~/Temp/wpts-results.html ~/Temp/wpts.xsl ~/Downloads/_smbtest_2021-12-08_17_28_23.trx
+--><html xmlns:t="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+            h2 {color: sienna}
+            .resultsHdrRow { font-face: arial; padding: 5px }
+            .resultsRow { font-face: arial; padding: 5px }
+            </style>
+</head>
+<body>
+<h2>Test Results</h2>
+<h3>Summary</h3>
+<ul>
+<li>Tests found:    142</li>
+<li>Tests executed: 133</li>
+<li>Tests passed:   122</li>
+<li>Tests Failed:   11</li>
+</ul>
+<table border="1" width="80%">
+<tr class="resultsHdrRow">
+<th align="left">Test</th>
+<th align="left">Outcome</th>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileAccessed_Dir_LastAccessTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileAccessed_File_LastAccessTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_Dir_Archive</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_Dir_LastAccessTime</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_Dir_LastChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_Dir_LastModificationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_File_Archive</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_File_LastAccessTime</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_File_LastChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Algorithm_NotingFileModified_File_LastModificationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>AlternateDataStream_FileShareAccess_AlternateStreamExisted</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>AlternateDataStream_FileShareAccess_DataFileExisted</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>AlternateDataStream_FileShareAccess_DirectoryExisted</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_CreateStream_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_CreateStream_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_DeleteStream_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_DeleteStream_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_ListStreams_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_ListStreams_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_LockAndUnlock_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_LockAndUnlock_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_RenameStream_Dir</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_RenameStream_File</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_WriteAndRead_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_AlternateDataStream_WriteAndRead_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_DuplicateExtentsToFileEx_IsBasicSupported</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_DuplicateExtentsToFileEx_IsSourceAtomicSupported</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_MarkHandle_File_IsSupported</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_Query_File_Regions</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_Query_File_Regions_WithInputData</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Clear_ShadowBTree_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Create_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Invalid_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_List_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Query_Deltas_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Revert_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotManagement_Set_ShadowBTree_IsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotOperation_Create_Positive</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotOperation_List_MultipleEntry</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotOperation_List_SingleEntry</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_FsCtl_RefsStreamSnapshotOperation_QueryDeltas_Positive</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileBothDirectoryInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileDirectoryInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileFullDirectoryInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdBothDirectoryInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileIdFullDirectoryInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_AsteriskInStringWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_DOS_DOT_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_DOS_QM_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_DOS_STAR_WildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_SpecialCase_AsteriskWildCard</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectoryBySearchPattern_FileNamesInformation_WildCard_QuestionMark</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileBothDirectoryInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileDirectoryInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileFullDirectoryInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileIdBothDirectoryInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileIdFullDirectoryInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>BVT_QueryDirectory_FileNamesInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileAccessInformation_DataSuffix</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileAlignmentInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileAlternateNameInformation</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileBasicInfo_File_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileBasicInformation_Dir_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileBasicInformation_File_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileBothDirectoryInformation_Dir_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileFullDirectoryInformation_Dir_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileIdGlobalTxDirectoryInformation_Dir_CreationTime</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileIdInformation_Dir</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileIdInformation_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileInternalInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileModeInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileNormalizedNameInfo_Dir</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FileNormalizedNameInfo_File</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Query_FilePositionInformation</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Dir_ChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Dir_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Dir_LastAccessTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Dir_LastWriteTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Dir_Negative</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_File_ChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_File_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_File_LastAccessTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_File_LastWriteTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_File_Negative</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_Dir_ChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_Dir_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_Dir_LastWriteTime</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_File_ChangeTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_File_CreationTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_File_LastAccessTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FileInfo_Set_FileBasicInformation_Timestamp_MinusTwo_File_LastWriteTime</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_IntegrityInformation_Dir_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_IntegrityInformation_File_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_NTFS_Volume_Data_Dir</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_NTFS_Volume_Data_File</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_REFS_Volume_Data_Dir</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Get_REFS_Volume_Data_File</td>
+<td>NotExecuted</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Offload_Read_File_IsOffloadSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Offload_Write_File_IsOffloadSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Set_IntegrityInformation_Dir_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsCtl_Set_IntegrityInformation_File_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsAttributeInformation_File_IsCompressionSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsAttributeInformation_File_IsEncryptionSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsAttributeInformation_File_IsIntegritySupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsAttributeInformation_File_IsObjectIDsSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsObjectIdInformation_File_IsObjectIdSupported</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsSectorSizeInformation_File_OutputBufferSizeEqualToSectorSizeInfo</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>FsInfo_Query_FileFsSizeInformation_File_SectorsPerAllocationUnit</td>
+<td>Passed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Fs_CreateDirectory_QueryDirectory_Suffix_I30_INDEX_ALLOCATION</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Fs_CreateDiretory_QueryDirectory_Suffix_INDEX_ALLOCATION</td>
+<td>Failed</td>
+</tr>
+<tr valign="top" class="resultsRow">
+<td>Fs_CreateFiles_QueryDirectory_With_Single_Entry_Flag</td>
+<td>Passed</td>
+</tr>
+</table>
+</body>
+</html>
